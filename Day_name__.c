@@ -17,7 +17,7 @@ int main()
     }
     else if(n==4)
     {
-        printf("Thursday");
+        printf("Thrusday");
     }
     else if(n==5)
     {
@@ -31,11 +31,7 @@ int main()
     {
         printf("Sunday");
     }
-    else if(n>=8)
-    {
-        printf("Invalid input");
-    }
-    else if(n<=0)
+    else
     {
         printf("Invalid input");
     }
