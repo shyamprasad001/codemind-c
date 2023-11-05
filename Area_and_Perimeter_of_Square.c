@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int s,A,P;
+    int s,a,p;
     scanf("%d",&s);
-    A=s*s;
-    P=4*s;
-    printf("%d %d",A,P);
-    
+    a=s*s;
+    p=s+s+s+s;
+    printf("%d %d",a,p);
 }
