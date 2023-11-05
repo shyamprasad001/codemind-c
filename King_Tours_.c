@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int N,M;
-    scanf("%d%d",&N,&M);
-    int max_people=(N*5)+(M*7);
-    printf("%d",max_people);
+    int n,m,tot;
+    scanf("%d%d",&n,&m);
+    tot=(n*5)+(m*7);
+    printf("%d",tot);
 }
