@@ -2,7 +2,8 @@
 #include<math.h>
 int main()
 {
-    float a,b;
-    scanf("%f%f",&a,&b);
-    printf("%.2f",sqrt((a*a)+(b*b)));
+    double a,b,h;
+    scanf("%lf%lf",&a,&b);
+    h=(a*a)+(b*b);
+    printf("%.2lf",sqrt(h));
 }
