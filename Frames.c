@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    float l,w,x;
-    scanf("%f%f%f",&l,&w,&x);
-    float perimeter=2*(l+w);
-    float cost=perimeter*x;
-    printf("%.0f",cost);
+    int l,b,x,p;
+    scanf("%d%d%d",&l,&b,&x);
+    p=(2*(l+b));
+    printf("%d",p*x);
 }
