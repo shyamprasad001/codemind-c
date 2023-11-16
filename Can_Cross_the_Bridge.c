@@ -1,8 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,z;
+    int x,y,z,n,m;
     scanf("%d%d%d",&x,&y,&z);
-    int ans=z-y;
-    printf("%d",ans/x);
+    if(x<=y<=z)
+    {
+        n=z-y;
+        m=n/x;
+        printf("%d",m);
+    }
 }
