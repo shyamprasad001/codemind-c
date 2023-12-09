@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int s,a,p;
-    scanf("%d",&s);
-    a=s*s;
-    p=s+s+s+s;
-    printf("%d %d",a,p);
+    int a,area,perimeter;
+    scanf("%d",&a);
+    area=a*a;
+    perimeter=4*a;
+    printf("%d ",area);
+    printf("%d",perimeter);
+    
 }
