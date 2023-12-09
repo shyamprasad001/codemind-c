@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int n,m,tot;
-    scanf("%d%d",&n,&m);
-    tot=(n*5)+(m*7);
-    printf("%d",tot);
+    int a,b,c;
+    scanf("%d%d",&a,&b);
+    c=((a*5)+(b*7));
+    printf("%d",c);
+    
 }
