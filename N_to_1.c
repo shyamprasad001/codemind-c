@@ -1,10 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int n,i;
+    int n;
     scanf("%d",&n);
-    for(i=n;i>=1;i--)
+    while(n>=1)
     {
-        printf("%d ",i);
+        
+        
+        
+        printf("%d ",n);
+        n--;
+        
     }
 }
