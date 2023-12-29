@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,z;
-    scanf("%d%d",&x,&y);
-    z=((2*x)-y);
-    printf("%d",z);
-    
+    int a,b,c;
+    scanf("%d%d",&a,&b);
+    c=(2*a)-b;
+    printf("%d",c);
 }
