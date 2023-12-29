@@ -1,9 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int t,s,b,k;
-    scanf("%d%d%d",&t,&s,&b);
-    k=(t*s*b);
-    printf("%d KB",k);
-    
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    printf("%d KB",a*b*c);
 }
