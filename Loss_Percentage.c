@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    float x,y,loss_percentage;
-    scanf("%f%f",&x,&y);
-    loss_percentage=((x-y)/x)*100;
-    printf("%.2f",loss_percentage);
+    float X,Y;
+    scanf("%f%f",&X,&Y);
+    float Per;
+    Per=(X-Y)/X*100;
+    printf("%.2f",Per);
 }
