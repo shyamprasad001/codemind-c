@@ -1,15 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,ans;
+    int x,y;
     scanf("%d%d",&x,&y);
-    
-    if(x>y)
+    if(y>x)
     {
-        printf("%d",x);
+        printf("%d",y);
     }
     else
     {
-        printf("%d",y);
+        printf("%d",x);
     }
 }
